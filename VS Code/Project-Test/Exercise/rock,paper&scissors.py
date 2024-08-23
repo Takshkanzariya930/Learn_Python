@@ -43,4 +43,3 @@ elif player_ch == 2 and comp_ch == 1:
     print("\n--> You won.\n")
 
 print("Thank you for playing".center(60,"-"))
-# ddddd
