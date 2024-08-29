@@ -5,5 +5,5 @@ os.chdir("Snaps")
 
 for i in os.listdir():
     if i.endswith(".png"):
-        n += 1
+        n = n + 1
         os.replace(i,f"{n}.png")
