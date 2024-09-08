@@ -9,4 +9,4 @@ while True:
         app_name="REMINDER",
         timeout=10)
     
-    sleep(172800)
+    sleep(3600)
