@@ -15,7 +15,7 @@ news = json.loads(response.text)
 for article in news["articles"]:
 
     if i < n + 1 :
-        print(f"-> {article["title"]}\n")
+        print(f"\n-> {article["title"]}\n")
         print(f"    {article["description"]}\n")
         print(f"    For more info '{article["url"]}'\n")
         print(f"-".center(50,"-"))
