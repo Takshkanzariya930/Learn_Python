@@ -20,11 +20,11 @@ while True:
 
     sleep(30)
 
-    notification.notify( 
-        title="ALERT",
-        message="RUNNING",
-        app_name="ALERT",
-        timeout=20)
+notification.notify( 
+    title="ALERT",
+    message="RUNNING",
+    app_name="ALERT",
+    timeout=20)
 
 print(drive)
 
